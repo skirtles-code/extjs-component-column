@@ -1,0 +1,16 @@
+Component Column
+Copyright(c) 2011-2013 Skirtle's Den
+License: http://skirtlesden.com/ux/component-column
+
+* Version 1.1, 07-May-2013:
+
+- Minor fixes for compatibility with ExtJS 4.1 and 4.2.
+- Fixed a bug that caused the scope of the renderer function to be incorrect. It should now be consistent with a normal column.
+- Added component query support, such that injected components are treated as children of the column.
+- Enhancements in CTemplate 1.1 allow components to be reused across multiple grid refreshes.
+- Take the visibility of the column into account when resizing the child components.
+- Child components remained visible when the column was hidden in IE 6 and 7.
+
+* Version 1.0, 22-Sep-2011:
+
+- First public release.
