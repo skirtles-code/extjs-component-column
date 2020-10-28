@@ -1,0 +1,18 @@
+CTemplate
+Copyright(c) 2011, 2013, 2020 skirtle - skirtlesden.com
+License: https://skirtlesden.com/ux/ctemplate
+
+* Version 1.2, 28-Oct-2020:
+
+- Suspend layouts while components are being injected.
+
+* Version 1.1, 07-May-2013:
+
+- Added an applyOut method for better compatibility with ExtJS 4.1. This method will be unavailable running against 4.0.
+- Fixed a stack overflow seen against ExtJS 4.1.
+- Added support for injecting components that have already been rendered.
+- Don't perform substitution on $comp as that has special significance in a renderTpl.
+
+* Version 1.0, 22-Sep-2011:
+
+- First public release.
